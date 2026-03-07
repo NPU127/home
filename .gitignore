@@ -24,5 +24,6 @@ dist-ssr
 *.sw?
 
 # SSH
-id_rsa_deploy
-id_rsa_deploy.pub
+id_rsa*
+deploy_key*
+*.pub

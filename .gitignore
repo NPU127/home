@@ -22,3 +22,7 @@ dist-ssr
 *.njsproj
 *.sln
 *.sw?
+
+# SSH
+id_rsa_deploy
+id_rsa_deploy.pub

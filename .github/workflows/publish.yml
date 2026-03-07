@@ -32,7 +32,6 @@ jobs:
           username: ${{ secrets.USER }}
           port: ${{ secrets.PORT }}
           key: ${{ secrets.KEY }}
-          passphrase: ${{ secrets.KEY_PASSWORD }}
           target: "/opt/1panel/apps/openresty/openresty/www/sites/home.npu127.com/index"
           source: "dist/*"
           strip_components: 1
